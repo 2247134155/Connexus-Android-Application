@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/abhinav/Work/APT-Android-Demo/AndroidDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/abhinav/Work/APT-Android-Demo/AndroidDemo/app/build/intermediates/pre-dexed/debug/classes-c1e264133094f2257cbfbe2897837c1e47239471.jar" />
+    </item>
+    <item
+        jar="/Users/abhinav/Work/APT-Android-Demo/AndroidDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/abhinav/Work/APT-Android-Demo/AndroidDemo/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-36a218ab94dbece52f09b9cbb414161d9e082c2e.jar" />
+    </item>
+    <item
+        jar="/Users/abhinav/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/abhinav/Work/APT-Android-Demo/AndroidDemo/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-ec2fd7c10677dcd40b9362e37913a97784198ac4.jar" />
+    </item>
+    <item
+        jar="/Users/abhinav/Work/APT-Android-Demo/AndroidDemo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Users/abhinav/Work/APT-Android-Demo/AndroidDemo/app/build/intermediates/pre-dexed/debug/classes-c6c20ac91d81b87a8b24aa1c93625d0197245205.jar" />
+    </item>
+
+</items>

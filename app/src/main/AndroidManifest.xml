@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aptdemo.yzhao.androiddemo" >
+
+    <!-- Permissions -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- permission for using camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- permission for storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- permission for record audio -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- permission for location service -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- permission for location service -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_cu"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Homepage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayImages"
+            android:label="@string/title_activity_display_images" >
+        </activity>
+        <activity
+            android:name=".ImageUpload"
+            android:label="@string/title_activity_image_upload" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".DisplayStreams"
+            android:label="@string/title_activity_display_streams" >
+        </activity>
+        <activity
+            android:name=".ViewSingleStream"
+            android:label="@string/title_activity_view_single_stream"
+            android:parentActivityName=".DisplayStreams" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aptdemo.yzhao.androiddemo.DisplayStreams" />
+        </activity>
+        <activity
+            android:name=".SearchResults"
+            android:label="@string/title_activity_search_results"
+            android:parentActivityName=".DisplayStreams" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aptdemo.yzhao.androiddemo.DisplayStreams" />
+        </activity>
+        <activity
+            android:name=".SubscribedStreams"
+            android:label="@string/title_activity_subscribed_streams"
+            android:parentActivityName=".DisplayStreams" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aptdemo.yzhao.androiddemo.DisplayStreams" />
+        </activity>
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:parentActivityName=".ImageUpload" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aptdemo.yzhao.androiddemo.ImageUpload" />
+        </activity>
+        <activity
+            android:name=".ViewNearbyStreams"
+            android:label="@string/title_activity_view_nearby_streams"
+            android:parentActivityName=".DisplayStreams" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aptdemo.yzhao.androiddemo.DisplayStreams" />
+        </activity>
+        <activity
+            android:name=".GetLocation"
+            android:label="@string/title_activity_get_location"
+            android:parentActivityName=".ImageUpload" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aptdemo.yzhao.androiddemo.ImageUpload" />
+        </activity>
+    </application>
+
+</manifest>
